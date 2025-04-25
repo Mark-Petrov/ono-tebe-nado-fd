@@ -31,7 +31,7 @@
       <address class="contact header__contact">
         <a href="tel:+99995555555">+9 999 555 5555</a><br>
         <a href="mailto:mail@example.com">info@sobaka.ge</a><br>
-        наб. Принсенграхт 263-265,<br> Амстердам
+        наб. Принсенграхт 263-<br>265, Амстердам
       </address>
 
     </header>
@@ -44,49 +44,51 @@
               <span class="cover__title-item position-end">над<span class="no-letter-spacing">о</span></span> 
             </h1> 
             <div class="cover__description">
-              <span class="cover__description-text">Аукцион вещей, в которые никто не верил</span>
+              <p class="cover__description-text">Аукцион вещей,</p>
+              <p class="cover__description-text"> в которые никто не верил</p>
               <button class="bet-button"><span>Сделать ставку</span></button>
             </div>        
         </div>
       </section>
   
       <section class="lots" id="1">
-        <span class="lots__heading">Лоты</span>
+        <h2 class="lots__heading">Лоты</h2>
         <div class="lots__card-list">
 
-          <article class="lots__card-list-item card_type_film">
-            <a href="#1" class="card-link">
+          <a href="#1" class="card-link">
+            <article class="lots__card-list-item card_type_film">
               <div class="overlay">
                 <div class="card__content">
-                  <div><h2 class="card__title">Фильм режиссёра, который бросил киношколу</h2></div>
-                  <div><h3 class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</h3> </div>
+                  <div><h3 class="card__title">Фильм режиссёра,<br> который бросил киношколу</h3></div>
+                  <div><p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p> </div>
                 </div>
               </div>
-            </a>
-          </article>
+            </article>
+          </a>
          
-          <article class="lots__card-list-item card_type_book">
-            <a href="#1" class="card-link">
+          <a href="#1" class="card-link">
+            <article class="lots__card-list-item card_type_book">
               <div class="overlay">
                 <div class="card__content">
-                <h2 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h2>
-                <h3 class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</h3>
+                  <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                  <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
                 </div>
               </div>
-            </a>
-          </article>
+            </article>
+          </a>
 
-          <article class="lots__card-list-item card_type_picture">
-            <a href="#1" class="card-link">
+          <a href="#1" class="card-link">
+            <article class="lots__card-list-item card_type_picture">
               <div class="overlay">
                 <div class="card__content">
-                  <h2 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h2>
-                  <h3 class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</h3>
+                  <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                  <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
                 </div>
               </div>
-            </a>
-          </article>
+            </article>
+          </a>
         </div>
+          
 
         <div class="lots__look-more-link">
           <a href="#1">посмотреть больше</a>
@@ -110,10 +112,10 @@
 
   <footer class="footer">
 
-    <address class="contact">
+    <address class="contact footer__contact">
       <a href="tel:+99995555555">+9 999 555 5555</a><br>
       <a href="mailto:mail@example.com">info@sobaka.ge</a><br>
-      наб. Принсенграхт 263-265,<br> Амстердам
+      наб. Принсенграхт 263-265, Амстердам
     </address>
 
     <nav class="footer__menu">
@@ -130,27 +132,27 @@
       </ul>
     </nav>
 
-    <div class="footer__social-list">
+    <ul class="footer__social-list">
 
-      <div class="footer__social-list-item">
+      <li class="footer__social-list-item">
         <a href="" class="footer__social-link">
           <img src="./images/yt.svg" alt="иконка YouTube" class="footer__social-icon">
         </a>
-      </div>
+      </li>
 
-      <div class="footer__social-list-item">
+      <li class="footer__social-list-item">
         <a href="" class="footer__social-link">
           <img src="./images/vk.svg" alt="иконка Вконтакте" class="footer__social-icon">
         </a>
-      </div>
+      </li>
 
-      <div class="footer__social-list-item">
+      <li class="footer__social-list-item">
         <a href="" class="footer__social-link">
           <img src="./images/pinterest.svg" alt="иконка pinterest" class="footer__social-icon">
         </a>
-      </div>
+      </li>
 
-    </div>
+    </ul>
 
   </footer>
   </body>
